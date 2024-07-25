@@ -7,7 +7,7 @@ an assistant based on ryzenai for paper reading
 本项目使用AMD AI PC，使用Agent-FLAN-7b模型和Llamaindex，在本地搭建了一个RAG系统，能够辅助用户阅读论文等文档，提高用户的科研工作效率。
 
 ## 环境搭建
-程序运行基于conda环境，该环境可参考官方安装例程搭建，并且要添加llamaindex和streamlit等必要的库。
+程序运行基于conda环境，具体搭建步骤可以参考RyzenAI-SW中的[example/transformers](https://github.com/amd/RyzenAI-SW/tree/main/example/transformers)，并且要添加llamaindex和streamlit等必要的库。
 
 程序必须使用CMD环境运行，否则环境变量设置会不起作用，造成程序运行出错。
 
@@ -27,7 +27,9 @@ setup_local.bat
 
 ### 模型转换
 
-请参考model_quant目录下的README文件。
+首先需要从[huggingface](https://huggingface.co/datasets/mit-han-lab/awq-model-zoo)上将要转换模型的AWQ Model放入到model_quant/model_quant/awq_cache目录下
+
+具体细节请参考model_quant目录下的README文件。
 
 ### 模型推理
 
