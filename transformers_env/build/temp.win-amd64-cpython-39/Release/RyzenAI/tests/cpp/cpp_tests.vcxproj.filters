@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\tests\cpp\test_qlinear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\tests\cpp\test_qlinear_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\tests\cpp\test_dynamicquantlinear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\tests\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F78B41DC-745D-31B8-85D6-B9DB750D0469}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

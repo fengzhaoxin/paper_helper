@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\09956a63c380919b07b4c3ea9e55f431\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\tests\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\build\temp.win-amd64-cpython-39\Release\RyzenAI\tests\cpp\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C4B50A0A-C411-31AD-84CB-2A92E25DE2C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

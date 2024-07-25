@@ -1,0 +1,10 @@
+^C:\USERS\ZXFENG\DOCUMENTS\AI_PROJ\RYZENAI-SW\EXAMPLE\TRANSFORMERS\OPS\CPP\BUILD\TEMP.WIN-AMD64-CPYTHON-39\RELEASE\RYZENAI\CMAKEFILES\2E16BAB33C45812B395D5777F119DFBC\GENERATE.STAMP.RULE
+setlocal
+C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp -BC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/RyzenAI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

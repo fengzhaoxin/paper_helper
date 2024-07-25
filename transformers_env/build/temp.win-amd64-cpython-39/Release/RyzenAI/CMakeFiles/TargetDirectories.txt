@@ -1,0 +1,8 @@
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/CMakeFiles/ALL_BUILD.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/CMakeFiles/ZERO_CHECK.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/tests/cpp/CMakeFiles/Experimental.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/tests/cpp/CMakeFiles/Nightly.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/tests/cpp/CMakeFiles/Continuous.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/tests/cpp/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/tests/cpp/CMakeFiles/cpp_tests.dir
+C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/build/temp.win-amd64-cpython-39/Release/RyzenAI/tests/cpp/CMakeFiles/ALL_BUILD.dir

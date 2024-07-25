@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0080AFD-F747-3D34-A14D-5EA6507029CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RyzenAI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\lib.win-amd64-cpython-39\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RyzenAI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RyzenAI.cp39-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\lib.win-amd64-cpython-39\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RyzenAI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RyzenAI.cp39-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\lib.win-amd64-cpython-39\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RyzenAI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RyzenAI.cp39-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\lib.win-amd64-cpython-39\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RyzenAI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RyzenAI.cp39-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include/eigen3" /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="Debug";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"Debug\";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tvm_ipu_runtime.lib;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\lib\xrt_coreutil.lib;maize.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\spdlog.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\libs\python39.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib/$(Configuration);C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/Debug/RyzenAI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/lib.win-amd64-cpython-39/Debug/RyzenAI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include/eigen3" /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="Release";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"Release\";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tvm_ipu_runtime.lib;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\lib\xrt_coreutil.lib;maize.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\spdlog.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\libs\python39.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib/$(Configuration);C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/Release/RyzenAI.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/lib.win-amd64-cpython-39/RyzenAI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include/eigen3" /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="MinSizeRel";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"MinSizeRel\";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tvm_ipu_runtime.lib;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\lib\xrt_coreutil.lib;maize.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\spdlog.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\libs\python39.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib/$(Configuration);C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/MinSizeRel/RyzenAI.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/lib.win-amd64-cpython-39/MinSizeRel/RyzenAI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/include" /external:I "C:/Users/zxfeng/.conda/envs/ryzenai-transformers/Library/include/eigen3" /Zc:__cplusplus /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="RelWithDebInfo";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DMLC_USE_LOGGING_LIBRARY=&lt;tvm/runtime/logging.h&gt;;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"RelWithDebInfo\";RyzenAI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\ops\cpp\utils;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\dmlc-core\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\dlpack\include;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\\third_party\include\maize;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\include;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tvm_ipu_runtime.lib;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\lib\xrt_coreutil.lib;maize.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\spdlog.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\libs\python39.lib;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/lib/$(Configuration);C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin;C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/third_party/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/RelWithDebInfo/RyzenAI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/lib.win-amd64-cpython-39/RelWithDebInfo/RyzenAI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp -BC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI --check-stamp-file C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config-version.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfig.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Common.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython\Support.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeSystem.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config-version.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets-release.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp -BC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI --check-stamp-file C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config-version.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfig.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Common.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython\Support.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeSystem.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config-version.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets-release.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp -BC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI --check-stamp-file C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config-version.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfig.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Common.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython\Support.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeSystem.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config-version.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets-release.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp -BC:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI --check-stamp-file C:/Users/zxfeng/Documents/AI_Proj/RyzenAI-SW/example/transformers/ops/cpp/build/temp.win-amd64-cpython-39/Release/RyzenAI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config-version.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\fmt\fmt-targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfig.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets-release.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigTargets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\lib\cmake\spdlog\spdlogConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\Library\share\eigen3\cmake\Eigen3Targets.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Common.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Config.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zxfeng\.conda\envs\ryzenai-transformers\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPython\Support.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Users\zxfeng\AppData\Local\Temp\pip-build-env-fc8oj_bp\overlay\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\3.29.2\CMakeSystem.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config-version.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-config.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets-release.cmake;C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\third_party\xrt-ipu\xrt\share\cmake\XRT\xrt-dev-targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\pybind\pyryzenai.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\zxfeng\Documents\AI_Proj\RyzenAI-SW\example\transformers\ops\cpp\build\temp.win-amd64-cpython-39\Release\RyzenAI\ZERO_CHECK.vcxproj">
+      <Project>{0E9139B4-2739-377C-8379-CB8BBBDC2E52}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

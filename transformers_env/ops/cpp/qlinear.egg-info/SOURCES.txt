@@ -1,0 +1,5 @@
+pyproject.toml
+qlinear.egg-info/PKG-INFO
+qlinear.egg-info/SOURCES.txt
+qlinear.egg-info/dependency_links.txt
+qlinear.egg-info/top_level.txt
