@@ -39,7 +39,7 @@ setup_local.bat
 
 Then, you need a LlamaCloud API key. You can get one for free by signing up for [LlamaCloud](https://cloud.llamaindex.ai/). Then put it in your config.ini file just like your OpenAI key:
 ```
-[lamma]
+[llamma]
 api_key = llx-xxxxxxxxx
 ```
 

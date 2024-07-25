@@ -209,7 +209,7 @@ class AgentFLAN(CustomLLM):
 def set_query(file_path):
     config = configparser.ConfigParser()
     config.read('config.ini')
-    lamma_key = config.get('lamma', 'api_key')        
+    lamma_key = config.get('llamma', 'api_key')        
     nest_asyncio.apply()
     parser = LlamaParse(
         api_key=lamma_key,  # can also be set in your env as LLAMA_CLOUD_API_KEY
